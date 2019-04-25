@@ -15,8 +15,4 @@
 		</where>
 	</select>
 	
-	<select id="selectCountWithSido" resultType="int">	
-		select count(1) from address
-		where ad_sido = #{adSido}
-	</select>
 </mapper> 
