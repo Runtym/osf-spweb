@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<a href="/uri/addr/test">addr/test.jsp로 이동</a>
 ${addrList}
 </body>
 </html>
