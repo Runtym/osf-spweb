@@ -17,6 +17,6 @@ public class AddrController {
 	@RequestMapping(value="/addr/list",method=RequestMethod.GET)
 	public String goAddrList(Model m) {
 		m.addAttribute("addrList",as.selectAddrList());
-		return "/addr/list";
+		return "/uri/addr/list";
 	}
 }

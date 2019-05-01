@@ -16,8 +16,7 @@ public class CustomerInfoDAOImpl implements CustomerInfoDAO {
 	
 	@Override
 	public List<Map<String, String>> selectCustomerList() {
-		
-		return ss.selectList("customer.selectCustomerList");
+		return ss.selectList("customer.selectCustomerList2");
 	}
 
 	@Override
